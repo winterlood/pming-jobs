@@ -10,7 +10,7 @@ export const editModalState = atom<EditProfile.ModalState>({
 
 export const editModeState = atom<boolean>({
   key: "editModeState",
-  default: true,
+  default: false,
 });
 
 // 배너
