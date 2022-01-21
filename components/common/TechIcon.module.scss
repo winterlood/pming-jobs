@@ -1,0 +1,17 @@
+.imgIcon,
+.divIcon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.imgIcon {
+}
+
+.divIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(220, 220, 220);
+  border-radius: 50%;
+}

@@ -1,0 +1,25 @@
+.tech_item_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* 
+* TECH ITEM
+*/
+.item_container {
+  border-bottom: 1px solid #f4f6fa;
+  padding-bottom: 10px;
+  .item_head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .panel {
+    div {
+      padding: 0px;
+      padding-left: 0px !important;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  label {
+    margin: 0.25rem 0.25rem;
+    border-radius: 6.25rem;
+    background-color: transparent;
+    border: 1px solid #e4e8f1;
+    font-size: 0.875rem;
+    line-height: 20px;
+    padding: 0.625rem 1rem;
+  }
+}

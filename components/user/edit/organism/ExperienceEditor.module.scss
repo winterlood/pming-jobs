@@ -1,0 +1,22 @@
+.head {
+  margin-bottom: 50px;
+}
+
+.container {
+}
+.container > div {
+  margin-bottom: 20px;
+}
+.container input {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.container textarea {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  min-height: 200px;
+  resize: vertical;
+}
+.container button {
+  height: 40px;
+}
