@@ -1,0 +1,26 @@
+.container {
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h3 {
+      margin: 0px;
+    }
+
+    .modal_icon_wrapper {
+      align-items: center;
+      border-radius: 50%;
+      box-sizing: content-box;
+      cursor: pointer;
+      display: inline-flex;
+      height: 1rem;
+      justify-content: center;
+      padding: 0.5rem;
+      width: 1rem;
+    }
+  }
+}
+
+.edit_body_container {
+}

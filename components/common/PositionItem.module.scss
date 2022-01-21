@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f4f6fa;
+  .head {
+  }
+  .main {
+    display: flex;
+    gap: 10px;
+    .org_icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 5px;
+    }
+  }
+  .content {
+    .panel {
+      div {
+        padding: 0px;
+        padding-left: 0px !important;
+      }
+    }
+  }
+}

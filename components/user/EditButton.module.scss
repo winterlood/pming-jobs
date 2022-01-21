@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+
+  button {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    white-space: nowrap;
+
+    cursor: pointer;
+    border-color: #e4e8f1;
+    color: #666c7e;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    border-radius: 0.25rem;
+  }
+}

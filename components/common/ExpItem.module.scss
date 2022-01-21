@@ -1,0 +1,43 @@
+/*
+* ExpItem
+*/
+.container {
+  .head_div {
+    margin-top: 30px;
+    > div {
+      margin-bottom: 10px;
+    }
+
+    .head_date {
+    }
+
+    .head_tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  }
+  margin-bottom: 80px;
+}
+
+/*
+* LabeledDiv
+*/
+.labeled_div {
+  .label {
+    margin-bottom: 5px;
+  }
+}
+
+/*
+* ExpTag
+*/
+.exp_tag {
+  display: flex;
+  align-items: center;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}

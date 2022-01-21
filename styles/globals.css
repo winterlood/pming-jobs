@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "bold";
+  src: url("/fonts/SPOQAHANSANSNEO-BOLD.TTF");
+}
+@font-face {
+  font-family: "medium";
+  src: url("/fonts/SPOQAHANSANSNEO-MEDIUM.TTF");
+}
+@font-face {
+  font-family: "regular";
+  src: url("/fonts/SPOQAHANSANSNEO-REGULAR.TTF");
+}
+@font-face {
+  font-family: "light";
+  src: url("/fonts/SPOQAHANSANSNEO-LIGHT.TTF");
+}
+@font-face {
+  font-family: "thin";
+  src: url("/fonts/SPOQAHANSANSNEO-THIN.TTF");
+}
+
+html,
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+#__next {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.badge-pill-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.badge-pill.badge-pill-navy svg {
+  color: #5f6ceb;
+}
