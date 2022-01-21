@@ -13,7 +13,6 @@ import PositionItem from "components/common/PositionItem";
 import TehcnologyTab from "components/user/profile/TehcnologyTab";
 import ExperienceTimeline from "components/user/profile/ExperienceTimeline";
 import EditableIntroduce from "components/user/UserIntroduce";
-import withProfileEditModal from "hoc/withProfileEditModal";
 
 import { profile } from "data/dummy";
 import UserIntroduce from "components/user/UserIntroduce";

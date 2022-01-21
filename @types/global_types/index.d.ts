@@ -158,7 +158,6 @@ declare module "@types" {
    */
   export namespace Profile {
     type Profile = {
-      id: string;
       privateBannerUrl: string;
       user: User;
       badgeList: Common.ProfileBadge[];
